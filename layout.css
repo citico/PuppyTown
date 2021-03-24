@@ -1,0 +1,87 @@
+.mainPage {
+    /* height: 100vh; /* vh stands for viewport height, and keeps the footer on the bottom */
+    display: grid;
+    grid-template-columns: minmax(0, auto);
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas: 
+        "header"
+        "mainTitle"
+        "primaryContent"
+        "primaryContent"
+        "thePack"
+        "philosophy"
+        "contact-us"
+    ;
+}
+
+.header {
+  grid-area: header;
+}
+
+.mainTitle {
+    grid-area: mainTitle;
+}
+
+.primaryContent {
+  grid-area: primaryContent;
+}
+
+.thePack {
+  grid-area: thePack;
+}
+
+.contact-us {
+  grid-area: contact-us; 
+}
+
+.philosophy {
+  grid-area: philosophy;
+}
+
+
+
+@media (min-width: 992px){
+    .mainPage {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(auto);
+        grid-template-areas: 
+        "header header"
+        "mainTitle mainTitle"
+        "primaryContent primaryContent"
+        "thePack philosophy"
+        "thePack contact-us";
+    }
+}
+
+/*
+Flexbox
+*/
+
+.top-links,
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+ .mainPic { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    overflow: hidden;
+} 
+
+@media screen and (max-width: 600px) {
+  .top-links,
+  .nav-bar {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: stretch;
+  }
+};

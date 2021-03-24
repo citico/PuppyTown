@@ -1,0 +1,60 @@
+.mainPage {
+    /* height: 100vh; /* vh stands for viewport height, and keeps the footer on the bottom */
+    display: grid;
+    grid-template-columns: minmax(0, auto);
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas: 
+        "header"
+        "mainTitle"
+        "primaryContent"
+        "secondaryContent1"
+        "secondaryContent2"
+        "secondaryContent3"
+    ;
+}
+
+.header {
+  grid-area: header;
+}
+
+.mainTitle {
+    grid-area: mainTitle;
+}
+
+.primaryContent {
+  grid-area: primaryContent;
+}
+
+.secondaryContent1 {
+  grid-area: secondaryContent1;
+}
+
+.secondaryContent2 {
+  grid-area: secondaryContent2; 
+}
+
+.secondaryContent3 {
+  grid-area: secondaryContent3;
+}
+
+/*
+Flexbox
+*/
+
+.top-links,
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+ .mainPic { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    overflow: hidden;
+} 

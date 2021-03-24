@@ -1,0 +1,388 @@
+/* Universal Selectors - * */
+
+
+/* Element Selectors - p */
+
+h1 {
+    color: #3d405b;
+    font-size: 4rem;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 2rem 1rem 0rem;
+}
+
+a {
+    color: #f4f1de ;
+    background-color: #3d405b;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 1px solid #3d405b;
+    padding: .25em .75em;
+    border-radius: 25px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+/* ID Selectors - # */
+
+#packTitle{
+    color: #3d405b;
+}
+
+#main-title{
+    color: #3d405b;
+    /* filter: brightness(50%); */
+}
+
+#mainSubTitle{
+    color: #d85531;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5em;
+    margin: .5em 1em;
+}
+
+#phone {
+    color: black ;
+    background-color: #f4f1de;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: none;
+    padding: 1px;
+    border-radius: none;
+}
+
+/* #contact-us a{ 
+    /* color: #f4f1de; 
+    color: #e07a5f;
+}*/
+
+/* #contact-us a:hover{ */
+    /* color: #e07a5f; 
+    color: #f4f1de;
+}*/
+
+/* #read-more a:hover { 
+    color: #3d405b;
+}*/
+
+/* #read-more a{ 
+    color: #e07a5f;
+}*/
+
+/* Class Selectors - . */
+
+/* .button {
+    color: #f4f1de ;
+    background-color: #3d405b;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 1px solid #3d405b;
+    padding: .25em .75em;
+    border-radius: 25px;
+} */
+
+.mainPage {
+    background-color: #f4f1de;
+}
+
+.top-bar { 
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1em;
+    color: #3d405b;
+    margin-right: .75em;
+    padding: auto;
+    text-transform: uppercase;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #f2cc8f;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    color: #3d405b;
+    font-size: 1.75em;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+/* .top-bar a:hover {
+    color: #3d405b;
+    text-decoration: underline;
+} */
+
+
+.litters {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem;
+    color: #3d405b;
+    background-color: #e07a5f;
+    text-transform: uppercase;
+    padding: .20em .95em;
+    margin: auto 1em;
+    text-decoration: none;
+}
+
+.drop-litters {
+    display: none;
+}
+
+/* .litters a:hover {
+    color: #3d405b;
+    font-size: 1.8rem;
+    text-decoration: underline;
+} */
+
+.header {
+    background-color: #f2cc8f;
+    max-height: 65px;
+    position: fixed;
+    width: 100%;
+}
+
+.mainTitle {
+    background-color: #f4f1de;
+    text-align: center;
+    color: #3d405b;
+}
+
+.primaryContent {
+    background-color: #f4f1de;
+    border: 5px solid #f4f1de;
+    text-align: center;
+}
+
+.thePack {
+    background-color: #f4f1de;
+    border: 5px solid #f4f1de;
+    text-align: center;
+    padding: 1em;
+}
+
+.dog-name {
+    color: #d85531;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Tangerine', cursive;
+    font-size: 3em;
+    padding: 1px;
+    margin: .25em;
+}
+
+.contact-us {
+    background-color: #f4f1de;
+    border: 5px solid #f4f1de;
+    text-align: center;
+    padding: 1em;
+}
+
+.from-puppytown {
+    background-color: #3d405b;
+    padding: .5em;
+}
+
+.philosophy {
+    background-color: #f4f1de;
+    border: 5px solid #f4f1de;
+    text-align: center;
+}
+
+.from-puppytown {
+    color: #f4f1de;
+    font-size: 2em;
+}
+
+.our-dog {
+    max-width: 70%;
+    max-height: 300px;
+}
+
+.mainPic {
+    width: auto;
+    max-height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dogName {
+    color: #e07a5f;
+    font-size: 1.5rem;
+}
+
+.antigone {
+    border-bottom: 5px solid #f4f1de;
+}
+
+.copper {
+    border-top: 5px solid #f4f1de;
+}
+
+.raised {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5em;
+    margin: auto;
+}
+
+.puppy-love {
+    max-width: 70%;
+    /* border-radius: 50%; */
+    display: block;
+    margin: 1em auto;
+}
+
+.our-story {
+    max-width: 70%;
+    /* border-radius: 50%; */
+    display: block;
+    margin: 3em auto;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secondaryContent1 {
+    text-align: center;
+    padding: 0em 1.5em 1.5em;
+}
+
+.secondaryContent2 {
+    text-align: center;
+}
+
+.contact-info {
+    font-size: 1.5em;
+    padding: 1em;
+    margin: 0em;
+}
+
+.fa {
+    padding: 10px 5px 5px 15px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    text-decoration: underline;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    margin-top: .5em;
+  }
+
+  .puppy-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+  }
+
+  .puppy-photo {
+      max-width: 350px;
+      border-bottom: solid 1px #3d405b;
+      padding-bottom: 1.5em;
+  }
+
+  .puppy-color {
+      color: #3d405b;
+      font-size: 2em;
+      font-family: 'Cormorant Garamond', serif;
+  }
+
+  .available {
+      color: #e07a5f;
+      font-size: 1.5em;
+      font-family: 'Dancing Script', cursive;
+  }
+/* Element Class Selectors - p.class */
+
+
+
+
+
+/* Media Qs */
+
+@media screen and (max-width: 600px) {
+    .header {
+        background-color: #f2cc8f;
+        max-height: 365px;
+        position: fixed;
+        width: 100%;
+    }
+
+    .myLinks.show {
+        display: flex;
+        /* flex-direction: column; */
+        /* color: #f4f1de; */
+        font-size: 1.2em;
+        justify-content: center;
+    }
+   
+    .nav-bar {
+        display: none;
+    }
+
+    /* .nav-bar.show {
+        display: flex;
+        flex-direction: column;
+        height: 3em; 
+    } */
+
+    .top-bar {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        margin-top: 1em;
+    }
+
+    .drop-down {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #e07a5f;
+        margin-top: 1em;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.2em;
+        color: #3d405b;
+        text-transform: uppercase;
+        list-style-type: none;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .litters {
+        display: none;
+    } 
+
+    .mainTitle {
+        padding-top: 2em;
+    }
+};
